@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="printTall()">Trykk for 2-gangen</button>
+    <div id="tall"></div>
+    <script>
+        function printTall(){
+             let stopVerdi= 20;
+             for(let counter = 2; counter<=stopVerdi; counter += 2){
+                document.getElementById('tall').innerHTML += '<li>' + counter;   
+                }
+
+        }
+
+
+    </script>
+    
+</body>
+</html>
